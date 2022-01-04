@@ -1,0 +1,163 @@
+.toolbar {
+  margin-bottom: 15px;
+}
+
+.fixed {
+  font-family: Menlo,Monaco,'Courier New',monospace;
+  font-size: 12px;
+}
+
+.table-nonfluid {
+   width: auto !important;
+}
+
+.register-table th,
+.register-table td {
+  padding: 2px 10px;
+
+  text-align: right;
+}
+
+.disasm-table th,
+.disasm-table td {
+  padding: 2px 10px;
+
+  text-align: right;
+}
+.disasm-table th.op,
+.disasm-table td.op {
+  text-align: left;
+}
+
+.dis {
+  position: relative;
+}
+.dis-gutter {
+  float: left;
+
+  width: 30px;
+}
+.dis-view {
+  width: 1000px;
+}
+
+.dis-gutter pre {
+  font-size: 18px;
+
+  color: red;
+  border: 0;
+  border-radius: 0;
+  background-color: #ccc;
+}
+.dis-view pre {
+  border: 0;
+  border-radius: 0;
+  background-color: whiteSmoke;
+}
+
+pre .dis-address-jump {
+  font-weight: bold;
+}
+pre .dis-address-target {
+  font-weight: bold;
+}
+pre .dis-label {
+  font-weight: bold;
+}
+pre .dis-address {
+  color: #999;
+}
+pre .dis-line-target {
+  background-color: #eee;
+}
+pre .dis-line-cur {
+  background-color: #ffa;
+}
+
+.output {
+  overflow: scroll;
+
+  height: 360px;
+
+  color: #fff;
+  background-color: #444;
+}
+
+div #cpu {
+  display: inline-block;
+
+  vertical-align: top;
+}
+div #disasm {
+  display: inline-block;
+
+  vertical-align: top;
+}
+
+.popover-inner {
+  width: auto;
+}
+
+.matrix-table th,
+.matrix-table td {
+  padding: 2px 10px;
+}
+
+.vertex-table th,
+.vertex-table td {
+  padding: 2px 10px;
+
+  text-align: right;
+}
+
+table .impl0 {
+  background-color: #c44;
+}
+table .impl40 {
+  background-color: #cc4;
+}
+table .impl80 {
+  background-color: #8c4;
+}
+table .impl100 {
+  background-color: #4f4;
+}
+
+.scrub {
+  width: 640px;
+}
+.scrub input {
+  width: 100%;
+}
+
+.hle-disasm {
+  position: relative;
+
+  overflow: scroll;
+
+  height: 480px;
+
+  color: #fff;
+  background-color: whiteSmoke;
+}
+
+.combine {
+  display: inline-block;
+}
+
+.cpu-display {
+  white-space: nowrap;
+}
+.cpu-details {
+  display: inline-block;
+
+  vertical-align: top;
+}
+
+.speed-slider {
+  white-space: nowrap;
+}
+
+.clear {
+  clear: both;
+}
