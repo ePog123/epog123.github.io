@@ -1,59 +1,222 @@
-<!doctype html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="index.css">
-        <title>gametime-player</title>
-    </head>
-    <body>
-        <div class="draghint hidden screen" id="draghint">
-            <input type="file" id="chooser" class="chooser"/>
-            <div class="dragtext">
-                <h1>drag a game here to play</h1>
-            </div>
-        </div>
-        <div id="loading" class="message screen"><h1>loading ...</h1></div>
-        <div id="error" class="message hidden screen">
-            <h1>error!</h1>
-            <div id="clear-save" class="hidden">
-                <p>This could be caused by a corrupted save file. This button
-                will allow you to reset your save. Sadly you will not be able to
-                recover it.</p>
-                <button onclick="removeSave(); reset()">Delete save for this game</button>
-            </div>
-        </div>
-        <div id="overlay" class="overlay"></div>
-        <div class="menu hidden screen" id="menu">
-            <input type="file" id="savechooser" class="chooser"/>
-            <div class="options">
-                <h1>Your game is paused.</h1>
-                <button onclick="resume()">resume</button>
-                <button onclick="reset()">reset</button>
-                <button onclick="save()">save game</button>
-                <button onclick="load()">load save</button>
-                <button onclick="removeSave(); reset()">delete save</button>
-                <button id="mute" onclick="mute()">mute</button>
-            </div>
-            <div>
-                <h1>Controls:</h1>
-                <div>A button = A key</div>
-                <div>B button = B key</div>
-                <div>X button = X key</div>
-                <div>Y button = Y key</div>
-                <div>L button = L key</div>
-                <div>R button = R key</div>
-                <div>D-pad = arrow keys</div>
-            </div>
-            <div>
-                <h1>Core Info:</h1>
-                <pre id="core-name"></pre>
-                <pre id="system-info"></pre>
-                <pre id="av-info"></pre>
-            </div>
-        </div>
-        <script src="jspm_packages/system.js"></script>
-        <script src="config.js"></script>
-        <script>System.import('./index.coffee!')</script>
-    </body>
-</html>
+From: <Saved by Blink>
+Snapshot-Content-Location: https://matthewbauer.us/gametime-player/
+Subject: 
+Date: Wed, 5 Jan 2022 22:00:16 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--NHk4TmbSQgOrz1PSsZKvZVg6V9tqraRwns4iIaGJQt----"
+
+
+------MultipartBoundary--NHk4TmbSQgOrz1PSsZKvZVg6V9tqraRwns4iIaGJQt----
+Content-Type: text/html
+Content-ID: <frame-5F60EFBA0681E9CFE69F6D04A5DB187C@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://matthewbauer.us/gametime-player/
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
+=3DUTF-8"></head><body><div class=3D"line-gutter-backdrop"></div><form auto=
+complete=3D"off"><label class=3D"line-wrap-control">Line wrap<input type=3D=
+"checkbox" aria-label=3D"Line wrap"></label></form><table><tbody><tr><td cl=
+ass=3D"line-number" value=3D"1"></td><td class=3D"line-content"><span class=
+=3D"html-doctype">&lt;!doctype html&gt;</span></td></tr><tr><td class=3D"li=
+ne-number" value=3D"2"></td><td class=3D"line-content"><span class=3D"html-=
+tag">&lt;html&gt;</span></td></tr><tr><td class=3D"line-number" value=3D"3"=
+></td><td class=3D"line-content">    <span class=3D"html-tag">&lt;head&gt;<=
+/span></td></tr><tr><td class=3D"line-number" value=3D"4"></td><td class=3D=
+"line-content">        <span class=3D"html-tag">&lt;meta <span class=3D"htm=
+l-attribute-name">charset</span>=3D"<span class=3D"html-attribute-value">ut=
+f-8</span>"&gt;</span></td></tr><tr><td class=3D"line-number" value=3D"5"><=
+/td><td class=3D"line-content">        <span class=3D"html-tag">&lt;meta <s=
+pan class=3D"html-attribute-name">name</span>=3D"<span class=3D"html-attrib=
+ute-value">viewport</span>" <span class=3D"html-attribute-name">content</sp=
+an>=3D"<span class=3D"html-attribute-value">width=3Ddevice-width, initial-s=
+cale=3D1</span>"&gt;</span></td></tr><tr><td class=3D"line-number" value=3D=
+"6"></td><td class=3D"line-content">        <span class=3D"html-tag">&lt;li=
+nk <span class=3D"html-attribute-name">rel</span>=3D"<span class=3D"html-at=
+tribute-value">stylesheet</span>" <span class=3D"html-attribute-name">href<=
+/span>=3D"<a class=3D"html-attribute-value html-resource-link" target=3D"_b=
+lank" href=3D"https://matthewbauer.us/gametime-player/index.css" rel=3D"nor=
+eferrer noopener">index.css</a>"&gt;</span></td></tr><tr><td class=3D"line-=
+number" value=3D"7"></td><td class=3D"line-content">        <span class=3D"=
+html-tag">&lt;title&gt;</span>gametime-player<span class=3D"html-tag">&lt;/=
+title&gt;</span></td></tr><tr><td class=3D"line-number" value=3D"8"></td><t=
+d class=3D"line-content">    <span class=3D"html-tag">&lt;/head&gt;</span><=
+/td></tr><tr><td class=3D"line-number" value=3D"9"></td><td class=3D"line-c=
+ontent">    <span class=3D"html-tag">&lt;body&gt;</span></td></tr><tr><td c=
+lass=3D"line-number" value=3D"10"></td><td class=3D"line-content">        <=
+span class=3D"html-tag">&lt;div <span class=3D"html-attribute-name">class</=
+span>=3D"<span class=3D"html-attribute-value">draghint hidden screen</span>=
+" <span class=3D"html-attribute-name">id</span>=3D"<span class=3D"html-attr=
+ibute-value">draghint</span>"&gt;</span></td></tr><tr><td class=3D"line-num=
+ber" value=3D"11"></td><td class=3D"line-content">            <span class=
+=3D"html-tag">&lt;input <span class=3D"html-attribute-name">type</span>=3D"=
+<span class=3D"html-attribute-value">file</span>" <span class=3D"html-attri=
+bute-name">id</span>=3D"<span class=3D"html-attribute-value">chooser</span>=
+" <span class=3D"html-attribute-name">class</span>=3D"<span class=3D"html-a=
+ttribute-value">chooser</span>"/&gt;</span></td></tr><tr><td class=3D"line-=
+number" value=3D"12"></td><td class=3D"line-content">            <span clas=
+s=3D"html-tag">&lt;div <span class=3D"html-attribute-name">class</span>=3D"=
+<span class=3D"html-attribute-value">dragtext</span>"&gt;</span></td></tr><=
+tr><td class=3D"line-number" value=3D"13"></td><td class=3D"line-content"> =
+               <span class=3D"html-tag">&lt;h1&gt;</span>drag a game here t=
+o play<span class=3D"html-tag">&lt;/h1&gt;</span></td></tr><tr><td class=3D=
+"line-number" value=3D"14"></td><td class=3D"line-content">            <spa=
+n class=3D"html-tag">&lt;/div&gt;</span></td></tr><tr><td class=3D"line-num=
+ber" value=3D"15"></td><td class=3D"line-content">        <span class=3D"ht=
+ml-tag">&lt;/div&gt;</span></td></tr><tr><td class=3D"line-number" value=3D=
+"16"></td><td class=3D"line-content">        <span class=3D"html-tag">&lt;d=
+iv <span class=3D"html-attribute-name">id</span>=3D"<span class=3D"html-att=
+ribute-value">loading</span>" <span class=3D"html-attribute-name">class</sp=
+an>=3D"<span class=3D"html-attribute-value">message screen</span>"&gt;</spa=
+n><span class=3D"html-tag">&lt;h1&gt;</span>loading ...<span class=3D"html-=
+tag">&lt;/h1&gt;</span><span class=3D"html-tag">&lt;/div&gt;</span></td></t=
+r><tr><td class=3D"line-number" value=3D"17"></td><td class=3D"line-content=
+">        <span class=3D"html-tag">&lt;div <span class=3D"html-attribute-na=
+me">id</span>=3D"<span class=3D"html-attribute-value">error</span>" <span c=
+lass=3D"html-attribute-name">class</span>=3D"<span class=3D"html-attribute-=
+value">message hidden screen</span>"&gt;</span></td></tr><tr><td class=3D"l=
+ine-number" value=3D"18"></td><td class=3D"line-content">            <span =
+class=3D"html-tag">&lt;h1&gt;</span>error!<span class=3D"html-tag">&lt;/h1&=
+gt;</span></td></tr><tr><td class=3D"line-number" value=3D"19"></td><td cla=
+ss=3D"line-content">            <span class=3D"html-tag">&lt;div <span clas=
+s=3D"html-attribute-name">id</span>=3D"<span class=3D"html-attribute-value"=
+>clear-save</span>" <span class=3D"html-attribute-name">class</span>=3D"<sp=
+an class=3D"html-attribute-value">hidden</span>"&gt;</span></td></tr><tr><t=
+d class=3D"line-number" value=3D"20"></td><td class=3D"line-content">      =
+          <span class=3D"html-tag">&lt;p&gt;</span>This could be caused by =
+a corrupted save file. This button</td></tr><tr><td class=3D"line-number" v=
+alue=3D"21"></td><td class=3D"line-content">                    will allow =
+you to reset your save. Sadly you will not be able to</td></tr><tr><td clas=
+s=3D"line-number" value=3D"22"></td><td class=3D"line-content">            =
+        recover it.<span class=3D"html-tag">&lt;/p&gt;</span></td></tr><tr>=
+<td class=3D"line-number" value=3D"23"></td><td class=3D"line-content">    =
+            <span class=3D"html-tag">&lt;button <span class=3D"html-attribu=
+te-name">onclick</span>=3D"<span class=3D"html-attribute-value">removeSave(=
+); reset()</span>"&gt;</span>Delete save for this game<span class=3D"html-t=
+ag">&lt;/button&gt;</span></td></tr><tr><td class=3D"line-number" value=3D"=
+24"></td><td class=3D"line-content">            <span class=3D"html-tag">&l=
+t;/div&gt;</span></td></tr><tr><td class=3D"line-number" value=3D"25"></td>=
+<td class=3D"line-content">        <span class=3D"html-tag">&lt;/div&gt;</s=
+pan></td></tr><tr><td class=3D"line-number" value=3D"26"></td><td class=3D"=
+line-content">        <span class=3D"html-tag">&lt;div <span class=3D"html-=
+attribute-name">id</span>=3D"<span class=3D"html-attribute-value">overlay</=
+span>" <span class=3D"html-attribute-name">class</span>=3D"<span class=3D"h=
+tml-attribute-value">overlay</span>"&gt;</span><span class=3D"html-tag">&lt=
+;/div&gt;</span></td></tr><tr><td class=3D"line-number" value=3D"27"></td><=
+td class=3D"line-content">        <span class=3D"html-tag">&lt;div <span cl=
+ass=3D"html-attribute-name">class</span>=3D"<span class=3D"html-attribute-v=
+alue">menu hidden screen</span>" <span class=3D"html-attribute-name">id</sp=
+an>=3D"<span class=3D"html-attribute-value">menu</span>"&gt;</span></td></t=
+r><tr><td class=3D"line-number" value=3D"28"></td><td class=3D"line-content=
+">            <span class=3D"html-tag">&lt;input <span class=3D"html-attrib=
+ute-name">type</span>=3D"<span class=3D"html-attribute-value">file</span>" =
+<span class=3D"html-attribute-name">id</span>=3D"<span class=3D"html-attrib=
+ute-value">savechooser</span>" <span class=3D"html-attribute-name">class</s=
+pan>=3D"<span class=3D"html-attribute-value">chooser</span>"/&gt;</span></t=
+d></tr><tr><td class=3D"line-number" value=3D"29"></td><td class=3D"line-co=
+ntent">            <span class=3D"html-tag">&lt;div <span class=3D"html-att=
+ribute-name">class</span>=3D"<span class=3D"html-attribute-value">options</=
+span>"&gt;</span></td></tr><tr><td class=3D"line-number" value=3D"30"></td>=
+<td class=3D"line-content">                <span class=3D"html-tag">&lt;h1&=
+gt;</span>Your game is paused.<span class=3D"html-tag">&lt;/h1&gt;</span></=
+td></tr><tr><td class=3D"line-number" value=3D"31"></td><td class=3D"line-c=
+ontent">                <span class=3D"html-tag">&lt;button <span class=3D"=
+html-attribute-name">onclick</span>=3D"<span class=3D"html-attribute-value"=
+>resume()</span>"&gt;</span>resume<span class=3D"html-tag">&lt;/button&gt;<=
+/span></td></tr><tr><td class=3D"line-number" value=3D"32"></td><td class=
+=3D"line-content">                <span class=3D"html-tag">&lt;button <span=
+ class=3D"html-attribute-name">onclick</span>=3D"<span class=3D"html-attrib=
+ute-value">reset()</span>"&gt;</span>reset<span class=3D"html-tag">&lt;/but=
+ton&gt;</span></td></tr><tr><td class=3D"line-number" value=3D"33"></td><td=
+ class=3D"line-content">                <span class=3D"html-tag">&lt;button=
+ <span class=3D"html-attribute-name">onclick</span>=3D"<span class=3D"html-=
+attribute-value">save()</span>"&gt;</span>save game<span class=3D"html-tag"=
+>&lt;/button&gt;</span></td></tr><tr><td class=3D"line-number" value=3D"34"=
+></td><td class=3D"line-content">                <span class=3D"html-tag">&=
+lt;button <span class=3D"html-attribute-name">onclick</span>=3D"<span class=
+=3D"html-attribute-value">load()</span>"&gt;</span>load save<span class=3D"=
+html-tag">&lt;/button&gt;</span></td></tr><tr><td class=3D"line-number" val=
+ue=3D"35"></td><td class=3D"line-content">                <span class=3D"ht=
+ml-tag">&lt;button <span class=3D"html-attribute-name">onclick</span>=3D"<s=
+pan class=3D"html-attribute-value">removeSave(); reset()</span>"&gt;</span>=
+delete save<span class=3D"html-tag">&lt;/button&gt;</span></td></tr><tr><td=
+ class=3D"line-number" value=3D"36"></td><td class=3D"line-content">       =
+         <span class=3D"html-tag">&lt;button <span class=3D"html-attribute-=
+name">id</span>=3D"<span class=3D"html-attribute-value">mute</span>" <span =
+class=3D"html-attribute-name">onclick</span>=3D"<span class=3D"html-attribu=
+te-value">mute()</span>"&gt;</span>mute<span class=3D"html-tag">&lt;/button=
+&gt;</span></td></tr><tr><td class=3D"line-number" value=3D"37"></td><td cl=
+ass=3D"line-content">            <span class=3D"html-tag">&lt;/div&gt;</spa=
+n></td></tr><tr><td class=3D"line-number" value=3D"38"></td><td class=3D"li=
+ne-content">            <span class=3D"html-tag">&lt;div&gt;</span></td></t=
+r><tr><td class=3D"line-number" value=3D"39"></td><td class=3D"line-content=
+">                <span class=3D"html-tag">&lt;h1&gt;</span>Controls:<span =
+class=3D"html-tag">&lt;/h1&gt;</span></td></tr><tr><td class=3D"line-number=
+" value=3D"40"></td><td class=3D"line-content">                <span class=
+=3D"html-tag">&lt;div&gt;</span>A button =3D A key<span class=3D"html-tag">=
+&lt;/div&gt;</span></td></tr><tr><td class=3D"line-number" value=3D"41"></t=
+d><td class=3D"line-content">                <span class=3D"html-tag">&lt;d=
+iv&gt;</span>B button =3D B key<span class=3D"html-tag">&lt;/div&gt;</span>=
+</td></tr><tr><td class=3D"line-number" value=3D"42"></td><td class=3D"line=
+-content">                <span class=3D"html-tag">&lt;div&gt;</span>X butt=
+on =3D X key<span class=3D"html-tag">&lt;/div&gt;</span></td></tr><tr><td c=
+lass=3D"line-number" value=3D"43"></td><td class=3D"line-content">         =
+       <span class=3D"html-tag">&lt;div&gt;</span>Y button =3D Y key<span c=
+lass=3D"html-tag">&lt;/div&gt;</span></td></tr><tr><td class=3D"line-number=
+" value=3D"44"></td><td class=3D"line-content">                <span class=
+=3D"html-tag">&lt;div&gt;</span>L button =3D L key<span class=3D"html-tag">=
+&lt;/div&gt;</span></td></tr><tr><td class=3D"line-number" value=3D"45"></t=
+d><td class=3D"line-content">                <span class=3D"html-tag">&lt;d=
+iv&gt;</span>R button =3D R key<span class=3D"html-tag">&lt;/div&gt;</span>=
+</td></tr><tr><td class=3D"line-number" value=3D"46"></td><td class=3D"line=
+-content">                <span class=3D"html-tag">&lt;div&gt;</span>D-pad =
+=3D arrow keys<span class=3D"html-tag">&lt;/div&gt;</span></td></tr><tr><td=
+ class=3D"line-number" value=3D"47"></td><td class=3D"line-content">       =
+     <span class=3D"html-tag">&lt;/div&gt;</span></td></tr><tr><td class=3D=
+"line-number" value=3D"48"></td><td class=3D"line-content">            <spa=
+n class=3D"html-tag">&lt;div&gt;</span></td></tr><tr><td class=3D"line-numb=
+er" value=3D"49"></td><td class=3D"line-content">                <span clas=
+s=3D"html-tag">&lt;h1&gt;</span>Core Info:<span class=3D"html-tag">&lt;/h1&=
+gt;</span></td></tr><tr><td class=3D"line-number" value=3D"50"></td><td cla=
+ss=3D"line-content">                <span class=3D"html-tag">&lt;pre <span =
+class=3D"html-attribute-name">id</span>=3D"<span class=3D"html-attribute-va=
+lue">core-name</span>"&gt;</span><span class=3D"html-tag">&lt;/pre&gt;</spa=
+n></td></tr><tr><td class=3D"line-number" value=3D"51"></td><td class=3D"li=
+ne-content">                <span class=3D"html-tag">&lt;pre <span class=3D=
+"html-attribute-name">id</span>=3D"<span class=3D"html-attribute-value">sys=
+tem-info</span>"&gt;</span><span class=3D"html-tag">&lt;/pre&gt;</span></td=
+></tr><tr><td class=3D"line-number" value=3D"52"></td><td class=3D"line-con=
+tent">                <span class=3D"html-tag">&lt;pre <span class=3D"html-=
+attribute-name">id</span>=3D"<span class=3D"html-attribute-value">av-info</=
+span>"&gt;</span><span class=3D"html-tag">&lt;/pre&gt;</span></td></tr><tr>=
+<td class=3D"line-number" value=3D"53"></td><td class=3D"line-content">    =
+        <span class=3D"html-tag">&lt;/div&gt;</span></td></tr><tr><td class=
+=3D"line-number" value=3D"54"></td><td class=3D"line-content">        <span=
+ class=3D"html-tag">&lt;/div&gt;</span></td></tr><tr><td class=3D"line-numb=
+er" value=3D"55"></td><td class=3D"line-content">        <span class=3D"htm=
+l-tag">&lt;script <span class=3D"html-attribute-name">src</span>=3D"<a clas=
+s=3D"html-attribute-value html-resource-link" target=3D"_blank" href=3D"htt=
+ps://matthewbauer.us/gametime-player/jspm_packages/system.js" rel=3D"norefe=
+rrer noopener">jspm_packages/system.js</a>"&gt;</span><span class=3D"html-t=
+ag">&lt;/script&gt;</span></td></tr><tr><td class=3D"line-number" value=3D"=
+56"></td><td class=3D"line-content">        <span class=3D"html-tag">&lt;sc=
+ript <span class=3D"html-attribute-name">src</span>=3D"<a class=3D"html-att=
+ribute-value html-resource-link" target=3D"_blank" href=3D"https://matthewb=
+auer.us/gametime-player/config.js" rel=3D"noreferrer noopener">config.js</a=
+>"&gt;</span><span class=3D"html-tag">&lt;/script&gt;</span></td></tr><tr><=
+td class=3D"line-number" value=3D"57"></td><td class=3D"line-content">     =
+   <span class=3D"html-tag">&lt;script <span class=3D"html-attribute-name">=
+src</span>=3D"<a class=3D"html-attribute-value html-resource-link" target=
+=3D"_blank" href=3D"https://matthewbauer.us/gametime-player/build.js" rel=
+=3D"noreferrer noopener">build.js</a>"&gt;</span><span class=3D"html-tag">&=
+lt;/script&gt;</span></td></tr><tr><td class=3D"line-number" value=3D"58"><=
+/td><td class=3D"line-content">        <span class=3D"html-tag">&lt;script&=
+gt;</span>System.import('./index.coffee!')<span class=3D"html-tag">&lt;/scr=
+ipt&gt;</span></td></tr><tr><td class=3D"line-number" value=3D"59"></td><td=
+ class=3D"line-content">    <span class=3D"html-tag">&lt;/body&gt;</span></=
+td></tr><tr><td class=3D"line-number" value=3D"60"></td><td class=3D"line-c=
+ontent"><span class=3D"html-tag">&lt;/html&gt;</span></td></tr><tr><td clas=
+s=3D"line-number" value=3D"61"></td><td class=3D"line-content"><span class=
+=3D"html-end-of-file"></span></td></tr></tbody></table></body></html>
+------MultipartBoundary--NHk4TmbSQgOrz1PSsZKvZVg6V9tqraRwns4iIaGJQt------
