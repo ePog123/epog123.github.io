@@ -1,0 +1,132 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://matthewbauer.us/gametime-player/
+Subject: gametime-player
+Date: Wed, 5 Jan 2022 22:01:25 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--cngQkoGfMrGyLSkpG2fjzuH3TEyNYsqMakoSwOHzaz----"
+
+
+------MultipartBoundary--cngQkoGfMrGyLSkpG2fjzuH3TEyNYsqMakoSwOHzaz----
+Content-Type: text/html
+Content-ID: <frame-5F60EFBA0681E9CFE69F6D04A5DB187C@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://matthewbauer.us/gametime-player/
+
+<!DOCTYPE html><html><head><meta http-equiv=3D"Content-Type" content=3D"tex=
+t/html; charset=3DUTF-8"><link rel=3D"stylesheet" type=3D"text/css" href=3D=
+"cid:css-1dbdfa86-8d46-45da-964b-a564113f37d5@mhtml.blink" />
+       =20
+        <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-sc=
+ale=3D1">
+        <link rel=3D"stylesheet" href=3D"https://matthewbauer.us/gametime-p=
+layer/index.css">
+        <title>gametime-player</title>
+    </head>
+    <body data-new-gr-c-s-check-loaded=3D"14.1043.0" data-gr-ext-installed=
+=3D"">
+        <div class=3D"draghint screen" id=3D"draghint">
+            <input type=3D"file" id=3D"chooser" class=3D"chooser">
+            <div class=3D"dragtext">
+                <h1>drag a game here to play</h1>
+            </div>
+        </div>
+        <div id=3D"loading" class=3D"message screen hidden"><h1>loading ...=
+</h1></div>
+        <div id=3D"error" class=3D"message hidden screen">
+            <h1>error!</h1>
+            <div id=3D"clear-save" class=3D"hidden">
+                <p>This could be caused by a corrupted save file. This butt=
+on
+                    will allow you to reset your save. Sadly you will not b=
+e able to
+                    recover it.</p>
+                <button>Delete save for this game</button>
+            </div>
+        </div>
+        <div id=3D"overlay" class=3D"overlay"></div>
+        <div class=3D"menu hidden screen" id=3D"menu">
+            <input type=3D"file" id=3D"savechooser" class=3D"chooser">
+            <div class=3D"options">
+                <h1>Your game is paused.</h1>
+                <button>resume</button>
+                <button>reset</button>
+                <button>save game</button>
+                <button>load save</button>
+                <button>delete save</button>
+                <button id=3D"mute">mute</button>
+            </div>
+            <div>
+                <h1>Controls:</h1>
+                <div>A button =3D A key</div>
+                <div>B button =3D B key</div>
+                <div>X button =3D X key</div>
+                <div>Y button =3D Y key</div>
+                <div>L button =3D L key</div>
+                <div>R button =3D R key</div>
+                <div>D-pad =3D arrow keys</div>
+            </div>
+            <div>
+                <h1>Core Info:</h1>
+                <pre id=3D"core-name"></pre>
+                <pre id=3D"system-info"></pre>
+                <pre id=3D"av-info"></pre>
+            </div>
+        </div>
+       =20
+       =20
+       =20
+       =20
+   =20
+
+</body><grammarly-desktop-integration data-grammarly-shadow-root=3D"true"><=
+template shadowmode=3D"open"><div aria-label=3D"grammarly-integration" tabi=
+ndex=3D"-1" data-content=3D"{&quot;mode&quot;:&quot;full&quot;,&quot;isActi=
+ve&quot;:true,&quot;isUserDisabled&quot;:false}"></div></template></grammar=
+ly-desktop-integration></html>
+------MultipartBoundary--cngQkoGfMrGyLSkpG2fjzuH3TEyNYsqMakoSwOHzaz----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-1dbdfa86-8d46-45da-964b-a564113f37d5@mhtml.blink
+
+@charset "utf-8";
+
+body { transition: opacity 0.2s ease-in 0s; }
+
+body[unresolved] { opacity: 0; display: block; overflow: hidden; position: =
+relative; }
+------MultipartBoundary--cngQkoGfMrGyLSkpG2fjzuH3TEyNYsqMakoSwOHzaz----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://matthewbauer.us/gametime-player/index.css
+
+@charset "utf-8";
+
+html, body, canvas { margin: 0px; padding: 0px; width: 100%; height: 100%; =
+user-select: none; overflow: hidden; }
+
+.draghint { display: table; box-sizing: border-box; border-width: 10px; bor=
+der-style: dashed; background-color: white; border-color: rgb(204, 204, 204=
+); }
+
+.screen { width: 100%; height: 100%; }
+
+.dragtext { display: table-cell; vertical-align: middle; text-align: center=
+; color: rgb(153, 153, 153); }
+
+.menu { margin: 2em; }
+
+.hidden { display: none; }
+
+.hover { border-color: rgb(51, 51, 51); }
+
+.chooser { position: fixed; top: -1000px; }
+
+.message { text-align: center; }
+
+.message h1, .message p { position: relative; top: 50%; transform: translat=
+eY(-50%); }
+
+.overlay { opacity: 0.5; }
+------MultipartBoundary--cngQkoGfMrGyLSkpG2fjzuH3TEyNYsqMakoSwOHzaz------
