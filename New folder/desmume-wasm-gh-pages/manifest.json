@@ -1,0 +1,13 @@
+{
+    "name": "DS Player",
+    "short_name": "DS",
+    "start_url": ".",
+    "display": "fullscreen",
+    "background_color": "black",
+    "description": "DS",
+    "icons": [{
+      "src": "icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }]
+  }
