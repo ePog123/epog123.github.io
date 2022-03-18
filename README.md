@@ -6,5 +6,5 @@ SM64: https://augustberchelmann.com/mario https://github.com/28klotlucas2/Mario6
 Ruffle-Flash emulator: https://ruffle.rs/#  
 Gametime-player/libretro: https://github.com/matthewbauer/gametime-player  
 DS emulation: https://github.com/44670/desmume-wasm  
-Friday Night Funkin: https://github.com/ninjamuffin99/Funkin
+Friday Night Funkin: https://github.com/ninjamuffin99/Funkin  
 send me a message on discord( ePog#8601 ) to request any browser games!  
