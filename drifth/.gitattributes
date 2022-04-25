@@ -1,0 +1,4 @@
+itchio.asm.memory.unityweb filter=lfs diff=lfs merge=lfs -text
+itchio.data.unityweb filter=lfs diff=lfs merge=lfs -text
+itchio.asm.code.unityweb filter=lfs diff=lfs merge=lfs -text
+itchio.asm.framework.unityweb filter=lfs diff=lfs merge=lfs -text
