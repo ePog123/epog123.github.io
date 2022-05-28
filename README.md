@@ -7,6 +7,6 @@ Ruffle-Flash emulator: https://ruffle.rs/#
 Gametime-player/libretro: https://github.com/matthewbauer/gametime-player  
 DS emulation: https://github.com/44670/desmume-wasm  
 Friday Night Funkin: https://github.com/ninjamuffin99/Funkin
-Slope: https://playslope.com  
+Slope: https://www.y8.com/games/slope  
 Drift Hunters: https://drifthuntersunblocked.com/    
 send me a message on discord( ePog#8601 ) to request any browser games!  
