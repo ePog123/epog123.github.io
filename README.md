@@ -10,4 +10,6 @@ Friday Night Funkin: https://github.com/ninjamuffin99/Funkin
 Slope: https://www.y8.com/games/slope  
 Drift Hunters: https://ilyakaminetsky.itch.io/drift-hunters  
 Minecraft: https://github.com/lax1dude/eaglercraft  
+Stick Slasher: https://beruke.itch.io/sslasher  
+Retro Bowl: https://poki.com/en/g/retro-bowl  
 send me a message on discord( ePog#8601 ) to request any browser games!  
