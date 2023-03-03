@@ -13,4 +13,5 @@ Minecraft: https://github.com/lax1dude/eaglercraft
 Stick Slasher: https://beruke.itch.io/sslasher  
 Retro Bowl: https://poki.com/en/g/retro-bowl  
 BitLife: https://bitlifeonline.com/  
+A Small World Cup: https://poki.com/en/g/a-small-world-cup  
 send me a message on discord( ePog#8601 ) to request any browser games!  
