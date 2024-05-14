@@ -1,1 +1,0 @@
-module.exports = require("npm:gw@1.0.0/retro.js");

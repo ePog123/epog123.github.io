@@ -1,1 +1,0 @@
-module.exports = require("npm:gambatte@1.0.0/retro.js");

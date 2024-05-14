@@ -1,1 +1,0 @@
-module.exports = require("npm:promise@5.0.0/index.js");

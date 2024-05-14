@@ -1,1 +1,0 @@
-module.exports = require("npm:nestopia@1.0.0/retro.js");

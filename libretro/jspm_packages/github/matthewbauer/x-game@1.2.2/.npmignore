@@ -1,8 +1,0 @@
-npm-debug.log
-.npmignore
-.gitignore
-.travis.yml
-*.sav
-*.coffee
-*.py
-jspm_packages
