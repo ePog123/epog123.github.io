@@ -1,0 +1,57 @@
+{
+  "name": "power-assert-renderers",
+  "description": "Power Assert output renderers",
+  "version": "0.1.1",
+  "author": {
+    "name": "Takuto Wada",
+    "email": "takuto.wada@gmail.com",
+    "url": "http://github.com/twada"
+  },
+  "bugs": {
+    "url": "http://github.com/twada/power-assert-renderers/issues"
+  },
+  "dependencies": {
+    "power-assert-renderer-file": "^1.0.0",
+    "power-assert-renderer-assertion": "^1.0.0",
+    "power-assert-renderer-diagram": "^1.0.0",
+    "power-assert-renderer-comparison": "^1.0.0",
+    "power-assert-renderer-succinct": "^1.0.0"
+  },
+  "devDependencies": {
+    "ava": "^0.3.0",
+    "browserify": "^13.0.1",
+    "derequire": "^2.0.3",
+    "empower": "^1.0.1",
+    "espower-source": "^1.0.0",
+    "licensify": "^3.0.0",
+    "power-assert-formatter": "^1.1.0"
+  },
+  "directories": {
+    "lib": "./lib"
+  },
+  "files": [
+    "CHANGELOG.md",
+    "README.md",
+    "MIT-LICENSE.txt",
+    "build/power-assert-renderers.js",
+    "index.js"
+  ],
+  "homepage": "http://github.com/twada/power-assert-renderers",
+  "keywords": [
+    "assert",
+    "assertion",
+    "power-assert",
+    "test",
+    "testing"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/twada/power-assert-renderers.git"
+  },
+  "scripts": {
+    "build": "browserify index.js -p licensify --standalone powerAssertRenderers | derequire > ./build/power-assert-renderers.js",
+    "test": "ava"
+  }
+}
